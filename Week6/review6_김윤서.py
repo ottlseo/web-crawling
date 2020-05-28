@@ -17,10 +17,6 @@ content = input("번역할 내용: ")
 language = input("번역할 언어: (1)영어 (2)일본어 (3)중국어(간체) ")
 time.sleep(10) #지연시간 1초
 
-#change_lan = driver.find_element_by_css_selector("button#ddTargetLanguageButton")
-#time.sleep(10) #지연시간 1초
-#change_lan.click()
-#time.sleep(10) #지연시간 1초
 
 language_list = driver.find_elements_by_css_selector("ul.dropdown_menu_inner___29_zc li.select_item___1U0X9")
 # 언어 옵션이 리스트로 저장됨
